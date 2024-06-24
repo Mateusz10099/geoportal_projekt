@@ -1,0 +1,66 @@
+.about {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.about_title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.about_text {
+  width: 40%;
+  padding-right: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.about_images {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 120px;
+  text-align: center;
+}
+
+.about_image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.about_images p {
+  margin-bottom: 20px; /* Dodanie odstępu poniżej tekstu */
+}
+
+.about_button {
+  display: block;
+  width: 200px;
+  padding: 10px 20px;
+  text-align: center;
+  background-color: rgba(39, 108, 211, 0.5);
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+
+  /* Dodane style dla pozycjonowania */
+  position: fixed; /* Pozycjonowanie względem viewport */
+  bottom: 70px; /* Odstęp od dolnej krawędzi */
+  left: 250px; /* Odstęp od lewej krawędzi */
+}
+
+.about_button:hover {
+  background-color: white;
+  color: rgba(39, 108, 211, 0.5);
+  border: 2px solid rgba(39, 108, 211, 0.5);
+}

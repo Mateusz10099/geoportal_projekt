@@ -1,0 +1,58 @@
+.students-map-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.student-info {
+  width: 30%;
+  padding: 20px;
+  background-color: white;
+  text-align: center; /* Dodane wyśrodkowanie */
+}
+
+.student-icon {
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto; /* Wyśrodkowanie */
+  margin-right: auto; /* Wyśrodkowanie */
+}
+
+.student-table-container {
+  max-height: 60vh; /* Dodanie maksymalnej wysokości */
+  overflow-y: auto; /* Dodanie przewijania w pionie */
+  margin-bottom: 20px; /* Odstęp od przycisku */
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.student-table th {
+  background-color: #f2f2f2;
+}
+
+.student-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgba(39, 108, 211, 0.5);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.student-button:hover {
+  background-color: white;
+  color: rgba(39, 108, 211, 0.5);
+  border: 2px solid rgba(39, 108, 211, 0.5);
+}

@@ -1,0 +1,58 @@
+.employee-map-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.employee-info {
+  width: 30%;
+  padding: 20px;
+  background-color: white;
+  text-align: center; /* Dodane wyśrodkowanie */
+}
+
+.employee-icon {
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto; /* Wyśrodkowanie */
+  margin-right: auto; /* Wyśrodkowanie */
+}
+
+.employee-table-container {
+  max-height: 60vh; /* Dodanie maksymalnej wysokości */
+  overflow-y: auto; /* Dodanie przewijania w pionie */
+  margin-bottom: 20px; /* Odstęp od przycisku */
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th,
+.employee-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.employee-table th {
+  background-color: #f2f2f2;
+}
+
+.employee-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgba(39, 108, 211, 0.5);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.employee-button:hover {
+  background-color: white;
+  color: rgba(39, 108, 211, 0.5);
+  border: 2px solid rgba(39, 108, 211, 0.5);
+}

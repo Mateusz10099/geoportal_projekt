@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" modified="2024-04-19T07:26:14.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="3RDK2bvVQTGqo1PS2VfE" version="24.2.5" type="github">
+  <diagram name="demo_app" id="SjujZWza31zEXUVTe55D">
+    <mxGraphModel dx="875" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QopPASGlD3Rhdj66lMsY-10" value="demo app" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="60" width="530" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-1" value="frontend&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-2" value="map services" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-3" value="data sources" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="520" y="120" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QopPASGlD3Rhdj66lMsY-4" target="QopPASGlD3Rhdj66lMsY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-25" value="9090" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QopPASGlD3Rhdj66lMsY-11">
+          <mxGeometry x="-0.0417" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-4" value="react app" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="212.5" y="190" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-5" value="npm text&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212.5" y="240" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-6" value="leaflet js" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="212.5" y="290" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-12" value="5432" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QopPASGlD3Rhdj66lMsY-7" target="QopPASGlD3Rhdj66lMsY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-13" value="storage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QopPASGlD3Rhdj66lMsY-7" target="QopPASGlD3Rhdj66lMsY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-7" value="geoserwer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="240" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-8" value="postgis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="532.5" y="200" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-9" value="gpkg, fgf files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="532.5" y="280" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-24" value="ows" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="QopPASGlD3Rhdj66lMsY-14" target="QopPASGlD3Rhdj66lMsY-7">
+          <mxGeometry x="-0.3211" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="65" y="90" />
+              <mxPoint x="350" y="90" />
+              <mxPoint x="350" y="220" />
+              <mxPoint x="420" y="220" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-14" value="gis system client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-18" value="web browser" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QopPASGlD3Rhdj66lMsY-15" target="QopPASGlD3Rhdj66lMsY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QopPASGlD3Rhdj66lMsY-15" value="web app client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
